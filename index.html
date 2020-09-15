@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+<body>
+    <button id="getitem">Get Item</button>
+    <script>
+        document.getElementById("getitem").addEventListener("click", getItems);
+
+        function getItems(){
+            fetch("sample.txt")
+            .then(function(res){
+                return res.text();
+            })
+            .then(function(data){
+                console.log(data);
+            })
+        }
+    </script>
+</body>
+</html>
