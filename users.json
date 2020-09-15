@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Wazeed Mohammad",
+        "email": "wazeed@gmail.com" 
+    },
+    {
+        "id": 2,
+        "name": "Akheel Mohammad",
+        "email": "akheel@gmail.com" 
+    },
+    {
+        "id": 3,
+        "name": "Ramsha Qareena",
+        "email": "ramsha@gmail.com" 
+    },
+    {
+        "id": 4,
+        "name": "Qurrat-Ul-Ain",
+        "email": "qurrat@gmail.com" 
+    }
+]
